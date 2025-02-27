@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function onBtnclick()
+        {
+            var textBoxValue=document.getElementById("txtName");
+            alert(textBoxValue.value);
+            var lblLocal=document.getElementById("1b1Result");
+            lblLocal.innertext="Welcome "+ textBoxValue.value;
+        }
+        document.write("hello world!")
+    </script>
+</head>
+<body>
+    <Marquee>
+        <H1>HELLOOOOOO</H1>
+    </Marquee>
+
+        <label id="lblName">Name</label>
+        <input id="txtName" value=""type="text"></input>
+
+        <button onclick="onBtnclick">Submit button</button>
+        <p id="lblName"></p>
+
+        
+   
+</body>
+</html>
